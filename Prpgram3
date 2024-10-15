@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 3</title>
+</head>
+<body>
+    <h1>Find First N Fibonacci Numbers</h1>
+    <button onclick="fib()">Generate</button>
+    <h1>Generate Number And Its Squares</h1>
+    <button onclick="square()">Generate</button>
+</body>
+<script>
+    function fib(){
+        let n = parseInt(prompt("Enter value for n: "));
+        let a=0,b=1,c=0;
+        let output = "Fibaonocci Series\n";
+        for(i=0;i<n;++i)    
+        {    
+            if(i==0 || i ==1){
+                output += i+" ";
+                continue;
+            }
+            let c=a+b;    
+            output += c+" ";
+            a=b;    
+            b=c;    
+        } 
+        alert(output);
+    }
+    function square(){
+        let n = parseInt(prompt("Enter value for n: "));
+        let output = "Number Square\n";
+        for(i=1;i<=n;++i)    
+        { 
+            let sqr = i*i;
+            output += i +"              "+sqr+"\n";    
+        } 
+        alert(output);
+    }
+</script>
+</html>
