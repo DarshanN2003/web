@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 1</title>
+</head>
+<body>
+    <h1>RNS Institute of Technology</h1>
+    <hr/>
+    <h2>MCA Department</h2>
+    <h3>Faculty Details</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Designation</th>
+        </tr>
+        <tr>
+            <td>Amar</td>
+            <td>HOD</td>
+        </tr>
+        <tr>
+            <td>Akbar</td>
+            <td>Associate Professor</td>
+        </tr>
+    </table>
+    <h3>Useful Links</h3>
+    <a href="https://vtu.ac.in/"><b>VTU</b></a>
+    <br/><br/>
+    <img src="image.jpg" width="500" height="300"/>
+</body>
+</html>
