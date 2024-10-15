@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Program 5</title>
+</head>
+<body>
+  <h1>JavaScript Functions Demo</h1>
+  <script>
+    const vowels = "aeiouAEIOU";
+    const findvowel = str => [...str].findIndex(char => vowels.includes(char)) + 1 || -1;
+
+    const reversenum = num => parseFloat([...num.toString()].reverse().join(''));
+
+    const inputString = prompt("Enter a string:");
+    alert(`Position of the left-most vowel in '${inputString}': ${findvowel(inputString)}`);
+
+    const num = prompt("Enter a number:");
+    alert(`Original number is: '${num}', reversed number is: '${reversenum(num)}'`);
+  </script>
+</body>
+</html>
