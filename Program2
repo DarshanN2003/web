@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Program 2</title>
+    <style>
+        table{
+            border: 1px solid rgb(136, 136, 136);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Details</h3>
+    <p>I am Yogeesh</p>
+    <p>I am studying at RNSIT</p>
+    <p></p> 
+
+    <h1>My Skills</h3>
+    <ul style="list-style-type: square">
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>SQL</li>
+        <li>Photoshop</li>
+    </ul>
+
+    <h1>My Education Details</h3>
+    <table border="1">
+        <tr>
+            <th>Qualification</th>
+            <th>Result</th>
+            <th>Percentage</th>
+            <th>Remarks</th>
+        </tr>
+        <tr>
+            <td>SSLC</td>
+            <td>First Class</td>
+            <td>67.36%</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>PUC</td>
+            <td>Second Class</td>
+            <td>55.5%</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>Distinction</td>
+            <td>80%</td>
+            <td>-</td>
+        </tr>
+    </table>
+</body>
+</html>
