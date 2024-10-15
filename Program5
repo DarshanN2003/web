@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Program 5</title>
+</head>
+<body>
+  <h1>JavaScript Functions Demo</h1>
+  <script>
+    function findLeftVowelPos(inputString) {
+      const vowels = "aeiouAEIOU";
+      for (let i = 0; i < inputString.length; i++) {
+        if (vowels.includes(inputString[i])) {
+          return i + 1;
+        }
+      }
+      return -1;
+    }
+
+    function reverseNumber(number) {
+      return parseFloat(number.toString().split('').reverse().join(''));
+    }
+
+    const inputString = prompt("Enter a string: ");
+    const positionOfVowel = findLeftVowelPos(inputString);
+    alert(`Position of left-most vowel in '${inputString}': ${positionOfVowel}`);
+
+    const num = parseInt(prompt("Enter a number to reverse: "));
+    const rev = reverseNumber(num);
+    alert(`Original number: ${num}, Reversed number: ${rev}`);
+  </script>
+</body>
+</html>
